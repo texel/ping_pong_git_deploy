@@ -1,4 +1,4 @@
-= ping-pong-git-deploy
+= ping_pong_git_deploy
 
 Description goes here.
 

@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "ping-pong-git-deploy"
+    gem.name = "ping_pong_git_deploy"
     gem.summary = %Q{TODO: one-line summary of your gem}
     gem.description = %Q{TODO: longer description of your gem}
     gem.email = "lcaplan@onehub.com"
-    gem.homepage = "http://github.com/onehub/ping-pong-git-deploy"
+    gem.homepage = "http://github.com/onehub/ping_pong_git_deploy"
     gem.authors = ["Leigh Caplan"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
@@ -39,7 +39,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "ping-pong-git-deploy #{version}"
+  rdoc.title = "ping_pong_git_deploy #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
